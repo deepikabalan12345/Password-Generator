@@ -1,0 +1,57 @@
+body{
+    background-color:skyblue;
+}
+.container{
+    background-color: white;
+    height:350px;
+    width:400px;
+    border-radius:20px;
+    padding:20px;
+    transform:translate(400px,130px);
+}
+.container h1{
+    text-align: center;
+}
+.container input{
+    height:50px;
+    width:350px;
+    margin:20px;
+    border-radius:10px;
+    font-size: 20px;
+    color: black;
+}
+.slider input{
+    accent-color:skyblue;
+    cursor: pointer;
+    width: 87%;
+    height: 5px;
+
+}
+.slide {
+    position: absolute;
+    top:205px;
+    left: 92%;
+    transform: translateX(-50%);
+    background-color:skyblue;
+    padding: 2px 5px;
+    border-radius: 3px;
+    
+}
+.container button{
+    height:50px;
+    width:300px;
+    transform:translate(50px,10px);
+    color:white;
+    font-size:20px;
+    background-color:skyblue;
+
+}
+.container button:hover{
+    background-color:blueviolet;
+}
+.reset button{
+    height: 30px;
+    width:100px;
+    margin:30px;
+    transform:translate(130px);
+}
